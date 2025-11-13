@@ -1,0 +1,4 @@
+FROM nginx
+
+ADD ./nginx.html /var/www/html/index.html
+
